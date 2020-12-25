@@ -1,0 +1,24 @@
+{
+  "name": "gullah-marketplace",
+  "version": "1.0.0",
+  "description": "\"MarketPlace with cookie authentication\"",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "deploy": "now --public"
+  },
+  "author": "Awais Rehman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "next": "^10.0.4",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  }
+}
